@@ -12,14 +12,14 @@ Basic knowledge of JavaScript and REST APIs.
  cd image-api  
 ### 2. Install Dependencies:
  bash
-Copy code
-npm install  
+ Copy code
+ npm install  
 ### 3. Run the Server:
  bash
  Copy code
  node index.js  
- 4. Access the API:
-#### Open your browser or use a tool like Postman to access the endpoint:
+### 4. Access the API:
+ Open your browser or use a tool like Postman to access the endpoint:
  bash
  Copy code
  http://localhost:3000/api/image/random  
