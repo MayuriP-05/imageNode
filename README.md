@@ -6,29 +6,29 @@ Prerequisites:
 Node.js installed on your machine.
 Basic knowledge of JavaScript and REST APIs.
 ### 1. Clone the Repository:
-bash
-Copy code
-git clone <your-repository-link>  
-cd image-api  
+#### bash
+#### Copy code
+#### git clone <your-repository-link>  
+#### cd image-api  
 ### 2. Install Dependencies:
-bash
-Copy code
-npm install  
+#### bash
+#### Copy code
+#### npm install  
 ### 3. Run the Server:
-bash
-Copy code
-node index.js  
+#### bash
+#### Copy code
+#### node index.js  
 #### 4. Access the API:
-Open your browser or use a tool like Postman to access the endpoint:
-bash
-Copy code
-http://localhost:3000/api/image/random  
+#### Open your browser or use a tool like Postman to access the endpoint:
+#### bash
+#### Copy code
+#### http://localhost:3000/api/image/random  
 ## 📌 API Endpoint Details
 Endpoint: /api/image/random
-Method: GET
+#### Method: GET
 Response: Returns a JSON object with a random image URL.
 json
-Copy code
+#### Copy code
 {  
   "imageUrl": "https://example.com/random-image.jpg"  
 }  
@@ -50,7 +50,7 @@ bash
 Copy code
 http://localhost:3000/api/image/random  
 Verify that the response contains a valid image URL.
-📄 Future Improvements:
+## 📄 Future Improvements:
 Integrate with APIs like Unsplash, Pexels, or other image sources.
 Add more endpoints for different image categories.
 Implement error handling and caching mechanisms.
