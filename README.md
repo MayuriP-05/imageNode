@@ -30,7 +30,7 @@ Response: Returns a JSON object with a random image URL.
 json
 #### Copy code
 {  
-  "imageUrl": "https://example.com/random-image.jpg"  
+  "imageUrl": "https://random.dog/8617-11546-19302.jpg"  
 }  
 ## 📂 Project Structure
 bash
